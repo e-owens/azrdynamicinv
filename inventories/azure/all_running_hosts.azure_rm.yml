@@ -1,4 +1,4 @@
-plugin: azure_rm_functionapp_info
+plugin: azure_rm
 auth_source: env
 azure_rm_functionapp_info:
   resource_group: ct-n-zeaus-custhub-preprod-rg
