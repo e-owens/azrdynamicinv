@@ -1,9 +1,5 @@
----
-plugin: azure_rm
-auth_source: env
-- name: get app plans 
-  azure_rm_functionapp_info:
-    resource_group: ct-n-zeaus-chpoc-rg
+azure_rm_functionapp_info:
+  resource_group: ct-n-zeaus-chpoc-rg
 
 ##plugin: azure_rm
 ##auth_source: env
