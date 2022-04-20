@@ -1,3 +1,4 @@
+plugin: azure_rm
 auth_source: env
 azure_rm_appserviceplan_info:
   resource_group: "/subscriptions/91c1395e-45ac-46d3-9c2e-734822dc13e2/resourceGroups/ct-n-zeaus-chpoc-rg"
