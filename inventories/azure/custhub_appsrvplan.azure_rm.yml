@@ -1,9 +1,14 @@
 ---
 plugin: azure_rm
 auth_source: env
-- name: get app plans 
-  azure_rm_functionapp_info:
+- name: Get azure_rm_appserviceplan_facts for app service plan in resource group
+  azure_rm_appserviceplan_info:
     resource_group: ct-n-zeaus-chpoc-rg
+
+###
+#azure_rm_appserviceplan_info module
+#https://docs.ansible.com/ansible/latest/collections/azure/azcollection/azure_rm_appserviceplan_info_module.html#ansible-collections-azure-azcollection-azure-rm-appserviceplan-info-module
+##
 
 ##plugin: azure_rm
 ##auth_source: env
