@@ -2,7 +2,8 @@ plugin: azure_rm
 auth_source: env
 name: get all the app plans
   azure_rm_functionapp_info
-    resource_group: "ct-n-zeaus-chpoc-rg"
+    resource_group
+      ct-n-zeaus-chpoc-rg
 #plain_host_names: yes
 keyed_groups:
 - prefix: azure_location
