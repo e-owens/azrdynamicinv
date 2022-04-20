@@ -1,4 +1,0 @@
-plugin: azure_rm
-auth_source: env
-azure_rm_appserviceplan_info:
-  resource_group: ct-n-zeaus-chpoc-rg
