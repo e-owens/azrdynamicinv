@@ -3,9 +3,9 @@ auth_source: env
 plain_host_names: yes
 #exclude_host_filters:
 #- powerstate != 'running'
-keyed_groups:
-- prefix: tag
-  key: tags.aa_app_shortname_CustHub
+#keyed_groups:
+#- prefix: tag
+#  key: tags.aa_app_shortname_CustHub
 #- prefix: azure_location
 #  key: location
 hostvar_expressions:
