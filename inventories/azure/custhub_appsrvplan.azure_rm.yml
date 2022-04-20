@@ -1,7 +1,6 @@
 ---
 plugin: azure_rm
 auth_source: env
-- name: Get azure_rm_appserviceplan_facts for app service plan in resource group
   azure_rm_appserviceplan_info:
     resource_group: ct-n-zeaus-chpoc-rg
 
