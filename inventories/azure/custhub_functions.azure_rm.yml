@@ -1,4 +1,3 @@
-
 plugin: azure_rm
 auth_source: env
 name: get functions in chpoc
