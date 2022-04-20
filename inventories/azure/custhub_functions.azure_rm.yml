@@ -1,5 +1,7 @@
-azure_rm_functionapp_info:
-  resource_group: ct-n-zeaus-chpoc-rg
+auth_source: env
+- name: get functions in chpoc
+  azure_rm_functionapp_info:
+    resource_group: ct-n-zeaus-chpoc-rg
 
 ##plugin: azure_rm
 ##auth_source: env
