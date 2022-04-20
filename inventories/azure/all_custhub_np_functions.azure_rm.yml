@@ -1,6 +1,8 @@
-plugin: azure_rm_appserviceplan_facts
+plugin: azure_rm
 auth_source: env
-  resource_group: ct-n-zeaus-chpoc-rg
+- name: get all the app plans
+  azure_rm_appserviceplan_facts:
+    resource_group: ct-n-zeaus-chpoc-rg
 #plain_host_names: yes
 keyed_groups:
 - prefix: azure_location
