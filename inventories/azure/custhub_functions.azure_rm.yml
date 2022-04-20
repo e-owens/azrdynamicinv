@@ -1,5 +1,5 @@
+plugin: azure_rm
 - name: get it
-  plugin: azure_rm
   auth_source: env
   azure_rm_functionapp_info:
     resource_group: 'ct-n-zeaus-chpoc-rg'
