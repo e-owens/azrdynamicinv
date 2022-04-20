@@ -1,7 +1,7 @@
 plugin: azure_rm
 auth_source: env
 #azure_rm_functionapp_info:
-azure_rm_webapp_facts:
+azure_rm_appserviceplan_facts:
   resource_group: ct-n-zeaus-chpoc-rg
 #plain_host_names: yes
 #exclude_host_filters:
