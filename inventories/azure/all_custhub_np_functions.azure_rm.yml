@@ -1,7 +1,6 @@
-plugin: azure_rm
-auth_source: env
 azure_rm_appserviceplan_info:
   resource_group: ct-n-zeaus-chpoc-rg
+auth_source: env
 #plain_host_names: yes
 #exclude_host_filters:
 #- powerstate != 'running'
